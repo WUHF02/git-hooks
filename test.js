@@ -1,1 +1,1 @@
-console.log("HG")
+console.log("")
