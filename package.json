@@ -9,7 +9,7 @@
   "husky": {
     "hooks": {
       "pre-commit": "node node-api",
-      "post-push": "node post-push",
+      "pre-push": "node post-push",
       "...": "..."
     }
   },
