@@ -1,0 +1,34 @@
+{
+  "name": "git-hooks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "node node-api",
+      "pre-push": "npm test",
+      "...": "..."
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tobias-E/git-hooks.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tobias-E/git-hooks/issues"
+  },
+  "homepage": "https://github.com/Tobias-E/git-hooks#readme",
+  "devDependencies": {
+    "husky": "^4.2.3"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.0",
+    "node-hue-api": "^4.0.5",
+    "ssl-root-cas": "^1.3.1"
+  }
+}
