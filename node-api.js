@@ -3,7 +3,7 @@ const LightState = v3.lightStates.LightState;
 
 const USERNAME = 'vxqLmDqnSVpUbzNSTo7WljD0VlnqzORDTyuxtuZY'
   // The name of the light we wish to retrieve by name
-  , LIGHT_ID = 4
+  , LIGHT_ID = 3
 ;
 
 v3.discovery.nupnpSearch()
